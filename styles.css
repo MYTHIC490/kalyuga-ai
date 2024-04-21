@@ -86,7 +86,7 @@ body {
 .user-input button:hover {
     background-color: #45a049;
 }
-
+/* Add the previous styles.css content here */
 
 /* Additional styles for new features */
 .options {
@@ -105,4 +105,21 @@ body {
 
 .option:hover {
     background-color: #cccccc;
+}
+/* Add the previous styles.css content here */
+
+/* Additional styles for voice chat */
+#voiceButton {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#voiceButton:hover {
+    background-color: #45a049;
 }
